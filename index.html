@@ -30,6 +30,9 @@ page: home
             {% for post in site.posts limit:3 %}
                 {% include recent-posts.html %}
             {% endfor %}
-        </div>        
+        </div>
+		<div class="row">
+			{% include newsletter-signup.html %}
+		</div>
     </div>
 </section>
