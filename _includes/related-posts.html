@@ -1,0 +1,10 @@
+<!-- page.categories -->
+{% for post in site.posts limit:3 %}
+	{% if category == page.categories %}
+		<div class="col-md-4">
+			<div class="thumbnail">
+				{% include post-preview.html %}
+			</div>
+		</div>
+	{% endif %}
+{% endfor %}
