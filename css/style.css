@@ -347,6 +347,13 @@ body.post-single .post-content {
 	margin-bottom: 100px;		
 }
 
+/*** Mailchimp sign-up form ***/
+#mc_embed_signup {
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+}
+
 /*** Social Sharing ***/
 div.fb-share-button.fb_iframe_widget,
 body.post-single .social-sharing a img {
