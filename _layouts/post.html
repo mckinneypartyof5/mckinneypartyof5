@@ -13,15 +13,16 @@ layout: default
 		{% endif %}
 		<br />
 		{% include post-single-category-links.html %}
-		</p>
-		
+		</p>		
 	  </header>
 	  <div class="post-content" itemprop="articleBody">
 		{{ content }}
 	  </div>
    </article>
+   {% include social-sharing.html %}
+   <hr />
 	{% include mailchimp-subscribe.html %}
-	{% include social-sharing.html %}
+	
 	<hr />
 	{% include disqus.html %}
 </div>
